@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+div.image {
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.content {
+  color: white;
+  background: rgb(0, 0, 0, 0.6);
+  padding: 16px;
+  letter-spacing: 2px;
+  font-size: 2em;
+  border-radius: 5px;
+}
+div.rain {
+  background-image: url('./rain.jpg');
+}
+
+div.river {
+  background-image: url('./river.jpg');
+}
+
+div.sea {
+  background-image: url('./sea.jpg');
+}
+
+div.clouds {
+  background-image: url('./clouds.jpg');
+}
+
+div.rain-2 {
+  background-image: url('./rain.jpg');
+}
+p {
+  margin: 16px 32px 16px 16px;
+  padding: 8px;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
